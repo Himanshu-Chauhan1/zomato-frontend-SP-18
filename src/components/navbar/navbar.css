@@ -109,7 +109,6 @@ header {
 .search {
     display: flex;
     width: 55vw;
-    /* justify-content: center; */
     align-items: center;
     border-radius: 10px;
     background: white;
@@ -159,7 +158,7 @@ header {
 
 .search .search-item:first-child {
     width: 30%;
-    color: rgb(255, 126, 139);
+    color:  rgb(240, 54, 76);
 }
 
 .search .search-item:last-child {
