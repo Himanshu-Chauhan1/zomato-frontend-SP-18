@@ -2,27 +2,7 @@ import React from 'react';
 import './signup.css'
 import SingnUpScreen from './signupScreen';
 import { Link } from 'react-router-dom';
-// import { isEmail, isPassword} from "validator";
 
-// const required = value => {
-//     if (!value) {
-//       return (
-//         <div className="alert alert-danger" role="alert">
-//           This field is required!
-//         </div>
-//       );
-//     }
-// };
-  
-// const password = value => {
-//     if (!isPassword(value)) {
-//       return (
-//         <div className="alert alert-danger" role="alert">
-//           Please enter a password.
-//         </div>
-//       );
-//     }
-//   };
 
 const SignUp = () => {
     return (

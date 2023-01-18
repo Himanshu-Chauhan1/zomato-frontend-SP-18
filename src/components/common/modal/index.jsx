@@ -1,7 +1,7 @@
 
-const Modal = ({ children}) => {
+const Modal = ({ children,id }) => {
     return (
-        <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal fade" id={id} tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">

@@ -13,11 +13,8 @@ const LogIn = () => {
                 <div class="mb-3">
                     <input type="password" class="form-control" id="email" placeholder="Password" />
                 </div>
-                <div class="d-grid gap-2">
-                    <button class="login-account" type="button">Log In</button>
-                </div>
                 <div class="form-check">
-                    <Link to="/login" component={LoginScreen}> <label type="text" class="already">New to Zomato? <a href="/" class="login-button" tabindex="-1" role="button" aria-disabled="true">Create Account</a>
+                    <Link to="/login" component={LoginScreen}> <label type="text" class="already">New to Zomato? <a href="/" class="login-button" tabindex="-1" role="button" aria-disabled="true">Log In</a>
                     </label></Link>
                 </div>
             </form>

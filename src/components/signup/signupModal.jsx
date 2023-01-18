@@ -5,7 +5,7 @@ import Modal from '../common/modal';
 
 const SignUpModal = () => {
     return (
-        <Modal>
+        <Modal id={"signup"}>
             <SignUp />
         </Modal>
     );

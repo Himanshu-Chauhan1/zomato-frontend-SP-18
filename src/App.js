@@ -5,6 +5,8 @@ import './components/login/login.css'
 import './components/collection/collection.css'
 import './components/localities/localities.css'
 import './components/app/app.css'
+import './components/explore/explore.css'
+import './components/footer/footer.css'
 import React from 'react';
 import Navbar from './components/navbar/navbar';
 import Category from './components/category/category';
@@ -13,6 +15,8 @@ import LoginModal from './components/login/loginModal'
 import Collection1 from './components/collection/collection';
 import Localities from './components/localities/localities';
 import ZomatoApp from './components/app/app';
+import CollapsePanel from './components/explore/explore';
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -25,6 +29,8 @@ function App() {
       <Collection1 />
       <Localities />
       <ZomatoApp />
+      <CollapsePanel />
+      <Footer />
     </div>
 
 

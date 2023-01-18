@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    width: 80%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.collapse-heading {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-weight: 380;
+    font-size: 30px;
+}
+
+.panel {
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: 330;
+    font-family: 'Poppins', sans-serif;
+}
+
+.panel:hover {
+    box-shadow: 0.6px 0.6px gainsboro;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}

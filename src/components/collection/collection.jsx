@@ -17,7 +17,7 @@ function collection() {
                 <a href="/" className="collection-anchor">
                     <div className="collection-item">
                         <div className="image">
-                            <img src={"https://b.zmtcdn.com/data/collections/88a9eba6ab9c0c48816a1cdc3247162b_1673354829.jpg?output-format=webp"} alt="" />
+                            <img src={"https://b.zmtcdn.com/data/collections/2c6e67f4208215d6cb5377892d07eb5b_1673940490.jpg?output-format=webp"} alt="" />
                             <div class="bottom-left">17 Best Insta-Worthy Places</div>
                             <div class="bottom-left1">17 Places<AiFillCaretRight /></div>
                         </div>

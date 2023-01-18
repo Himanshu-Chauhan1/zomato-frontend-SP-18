@@ -4,7 +4,7 @@ import LogIn from './loginForm';
 
 const LoginModal = () => {
     return (
-        <Modal>
+        <Modal id={"login"}>
             <LogIn />
         </Modal>
     );

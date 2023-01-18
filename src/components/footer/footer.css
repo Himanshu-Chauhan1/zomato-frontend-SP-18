@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container-1 {
+    background-color: #f8f8f8;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 38vh;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.headings {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    padding-top: 4%;
+}
+
+.zomato-name {
+    width: 20%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.zomato-name img {
+    width: 70%;
+    margin-left: 5%;
+    font-weight: bold;
+    object-fit: cover;
+}
+
+.select-country {
+    width: 10%;
+    height: 5vh;
+    margin-left: 48%;
+}
+
+.select-country-name {
+    width: 100%;
+}
+
+.select-language {
+    width: 10%;
+    height: 5vh;
+    margin-left: 1%;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    width: 89%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.footer-heading {
+    font-size: 17px;
+    margin-top: 2%;
+    width: 90%;
+    color: rgb(0, 0, 0);
+}
+
+.footer-content {
+    text-decoration: none;
+    color: #9E9E9E;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-content:hover {
+    color: rgb(124, 123, 123);
+}
+
+.about-zomato {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 20%;
+    height: 20vh;
+}
+
+.zomaverse {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 20%;
+    height: 20vh;
+}
+
+.places {
+    width: 20%;
+    height: 20vh;
+}
+
+.restaurants {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.enterprises {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+
+.learn-more {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 20%;
+    height: 20vh;
+}
+
+.social-links {
+    width: 20%;
+    height: 40vh;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: -3%;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.download-link-2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 8%;
+    align-items: center;
+}
+
+.android-2 img {
+    width: 130%;
+    height: 5vh;
+    margin-top: 12%;
+    object-fit: contain;
+}
+
+.ios-2 img {
+    width: 130%;
+    height: 5vh;
+    margin-left: 2%;
+    margin-top: 5%;
+    object-fit: contain;
+}
+
+.footer-bottom {
+    width: 80%;
+    margin: auto;
+    color: #9E9E9E;
+    font-size: 14.5px;
+    font-weight: 400;
+    height: 15vh;
+}
