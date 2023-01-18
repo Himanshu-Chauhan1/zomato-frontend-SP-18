@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-heading {
+    margin-top: 5%;
+    margin-left: 12%;
+    font-weight: 380;
+}
+
+.localities {
+    width: 80%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.localities-anchor {
+    border: 1px solid gainsboro;
+    text-decoration: none;
+    color: black;
+    height: 11vh;
+    width: 30%;
+    margin-top: 2%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.localities-anchor:hover {
+    box-shadow: 0.5px 0.5px gainsboro;
+    color: black;
+}
+
+.areas-heading {
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.areas-name {
+    font-size: 17px;
+    font-weight: 350;
+    margin-left: 3%;
+}
+
+.areas-heading-last {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 7%;
+}

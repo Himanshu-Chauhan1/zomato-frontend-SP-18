@@ -2,31 +2,56 @@ import './components/navbar/navbar.css';
 import './components/category/category.css';
 import './components/signup/signup.css'
 import './components/login/login.css'
-// import { Routes, Route } from 'react-router-dom'
+import './components/collection/collection.css'
+import './components/localities/localities.css'
+import './components/app/app.css'
 import React from 'react';
 import Navbar from './components/navbar/navbar';
 import Category from './components/category/category';
 import SignUpModal from './components/signup/signupModal'
 import LoginModal from './components/login/loginModal'
+import Collection1 from './components/collection/collection';
+import Localities from './components/localities/localities';
+import ZomatoApp from './components/app/app';
+
 
 function App() {
   return (
     <div className="App">
-      <>
-        <Navbar />
-        {/* <Routes>
-          <Route path='/signUp' element={<SignUpModal />} />
-          <Route />
-        </Routes> */}
-      </>
+      <Navbar />
       <SignUpModal />
       <LoginModal />
       <Category />
+      <Collection1 />
+      <Localities />
+      <ZomatoApp />
     </div>
+
+
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //type of components

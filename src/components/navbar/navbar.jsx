@@ -16,8 +16,8 @@ const Navbar = () => {
                 </div>
                 <nav className="nav-bar">
                     <Link>Add Restaurant</Link>
-                    <Link data-bs-toggle="modal" data-bs-target="#loginModal">Log In</Link>
-                    <Link data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</Link>
+                    <Link data-bs-toggle="modal" data-bs-target="#Modal" to={"/loginScreen"}>Log In</Link>
+                    <Link data-bs-toggle="modal" data-bs-target="#Modal">Sign Up</Link>
                 </nav>
             </div>
             <div className="head">
