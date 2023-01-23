@@ -2,35 +2,44 @@ body {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
 }
 
 .main-collection {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 82%;
     margin: auto;
     margin-top: 5%;
-    font-family: 'Poppins', sans-serif;
 }
 
 .collection-heading {
     margin-top: 2%;
+    margin-bottom: 0.3%;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
 }
 
 .collection-paragraph {
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 300;
+    font-style: normal;
 }
 
 .city-collection {
     margin-right: 1%;
-    margin-top: 6.5%;
+    margin-top: 5.4%;
+    font-weight: 550;
+    font-size: 17px;
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 .city-collection a {
     text-decoration: none;
     color: rgb(238, 106, 121);
+    font-weight: 300;
+    font-style: normal;
 }
 
 .city-collection a:hover {
@@ -39,7 +48,7 @@ body {
 
 .collection {
     display: flex;
-    width: 78%;
+    width: 76%;
     justify-self: space-evenly;
     margin: auto;
     height: 40vh;

@@ -7,6 +7,7 @@ import './components/localities/localities.css'
 import './components/app/app.css'
 import './components/explore/explore.css'
 import './components/footer/footer.css'
+import './components/common/modal/index.css'
 import React from 'react';
 import Navbar from './components/navbar/navbar';
 import Category from './components/category/category';

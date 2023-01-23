@@ -27,7 +27,7 @@ const SignUp = () => {
                 <Link to="/signup" component={SingnUpScreen}><button class="create-account" type="button">Create Account</button></Link>
                 </div>
                 <div class="form-check">
-                    <label type="text" class="already">Already have an account? <a href="/" class="signup-button" tabindex="-1" role="button" aria-disabled="true">Log In</a>
+                    <label type="text" class="already">Already have an account? <Link to="/login" class="signup-button" tabindex="-1" role="button" aria-disabled="true">Log In</Link>
                     </label>
                 </div>
             </form>

@@ -114,11 +114,11 @@ const Footer = () => (
                     <div className="download-link-2">
                         <div className="android-2">
                             <Link to="https://play.google.com/store/apps/details?id=com..application.zomato&_branch_match_id=1144157600425835932&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3STcxLKcrPTAEABp6kzyEAAAA%3D">
-                                <img src={"https://icon-library.com/images/google-play-download-icon/google-play-download-icon-2.jpg"} alt="" />
+                                <img className="android-image" src={"https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"} alt="" />
                             </Link>
                         </div>
                         <div className="ios-2">
-                            <Link to="https://play.google.com/store/apps/details?id=com..application.zomato&_branch_match_id=1144157600425835932&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3STcxLKcrPTAEABp6kzyEAAAA%3D" target="_blank"><img src={"https://icon-library.com/images/app-store-icon-png/app-store-icon-png-14.jpg"} alt="" />
+                            <Link to="https://play.google.com/store/apps/details?id=com..application.zomato&_branch_match_id=1144157600425835932&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3STcxLKcrPTAEABp6kzyEAAAA%3D" target="_blank"><img className="ios-image" src={"https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"} alt="" />
                             </Link>
                         </div>
                     </div>
@@ -126,9 +126,9 @@ const Footer = () => (
             </div>
         </div>
         <div className="footer-bottom">
-        <Divider />
+            <Divider />
             <p className="footer-para">
-            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.
+                By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.
             </p>
         </div>
     </div>

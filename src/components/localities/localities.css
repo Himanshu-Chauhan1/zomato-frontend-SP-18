@@ -2,14 +2,13 @@ body {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
 }
 
 .main-heading {
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 12%;
-    font-weight: 380;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .localities {
@@ -18,7 +17,7 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    font-family: 'Poppins', sans-serif;
+    border: 2px solid black;
 }
 
 .localities-anchor {
@@ -27,33 +26,31 @@ body {
     color: black;
     height: 11vh;
     width: 30%;
-    margin-top: 2%;
+    margin-top: 4%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .localities-anchor:hover {
     box-shadow: 0.5px 0.5px gainsboro;
     color: black;
-    font-family: 'Poppins', sans-serif;
 }
 
 .areas-heading {
-    font-size: 22px;
-    font-weight: 300;
+    font-size: 21px;
     margin-left: 3%;
-    margin-top: 2%;
-    font-family: 'Poppins', sans-serif;
+    margin-top: 3%;
+    font-weight: 350;
+    font-style: normal;
 }
 
 .areas-name {
     font-size: 17px;
     font-weight: 350;
     margin-left: 3%;
-    font-family: 'Poppins', sans-serif;
 }
 
 .areas-heading-last {
@@ -61,5 +58,4 @@ body {
     font-weight: 300;
     text-align: center;
     margin-top: 7%;
-    font-family: 'Poppins', sans-serif;
 }

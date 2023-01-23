@@ -2,13 +2,11 @@ body {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
 }
 
 .main-container-1 {
     background-color: #f8f8f8;
     width: 100%;
-    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -28,12 +26,12 @@ body {
 
 .zomato-name {
     width: 20%;
-    margin-left: 5%;
+    margin-left: 4.3%;
     font-weight: bold;
 }
 
 .zomato-name img {
-    width: 70%;
+    width: 52%;
     margin-left: 5%;
     font-weight: bold;
     object-fit: cover;
@@ -65,17 +63,21 @@ body {
 }
 
 .footer-heading {
-    font-size: 17px;
-    margin-top: 2%;
-    width: 90%;
-    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 3%;
+    width: 100%;
+    font-weight: 540;
+    font-style: normal;
+    letter-spacing: 0.16em;
 }
 
 .footer-content {
     text-decoration: none;
-    color: #9E9E9E;
-    font-size: 15px;
-    font-weight: 400;
+    color: #4f4f4f;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.07em;
 }
 
 .footer-content:hover {
@@ -116,7 +118,6 @@ body {
     margin-top: 4%;
 }
 
-
 .learn-more {
     display: flex;
     justify-content: flex-start;
@@ -126,15 +127,15 @@ body {
 }
 
 .social-links {
-    width: 20%;
-    height: 40vh;
+    width: 25%;
+    height: 20vh;
 }
 
 .links {
     display: flex;
     justify-content: space-evenly;
     width: 70%;
-    margin-left: -3%;
+    margin-left: -4.2%;
 }
 
 .footer-link {
@@ -142,35 +143,41 @@ body {
     color: black;
 }
 
-
 .download-link-2 {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    width: 8%;
+    width: 0%;
+    height: 10vh;
     align-items: center;
+    margin-left: 0.2%;
 }
 
-.android-2 img {
-    width: 130%;
-    height: 5vh;
-    margin-top: 12%;
-    object-fit: contain;
+.android-image {
+    object-fit: fill;
+    width: 9rem;
+    height: 2.5rem;
+    margin-top: 1%;
+    overflow: hidden;
+    position: absolute;
 }
 
-.ios-2 img {
-    width: 130%;
-    height: 5vh;
-    margin-left: 2%;
-    margin-top: 5%;
-    object-fit: contain;
+
+.ios-image {
+    object-fit: fill;
+    width: 9rem;
+    height: 2.5rem;
+    margin-top: 4.5%;
+    overflow: hidden;
+    position: absolute;
 }
 
 .footer-bottom {
     width: 80%;
     margin: auto;
-    color: #9E9E9E;
+    color: #4f4f4f;
     font-size: 14.5px;
-    font-weight: 400;
+    font-weight: 300;
     height: 15vh;
+    font-family: Okra, Helvetica, sans-serif;
+    font-style: normal;
 }

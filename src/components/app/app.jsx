@@ -19,26 +19,26 @@ function ZomatoApp() {
                     <h1 className="zomato-heading">Get the Zomato app</h1>
                     <p className="zomato-paragraph">We will send you a link, open it on your phone to download the app</p>
                     <div className="contact">
-                        <div className="email"> <Radio.Group onChange={onChange} value={value}>
-                            <Radio value={1} style={{ fontSize: '18px' }}>Email</Radio>
+                        <div className="email"><Radio.Group onChange={onChange} value={value}>
+                            <Radio value={1} className="radio-email">Email</Radio>
                         </Radio.Group></div>
-                        <div className="phone"><Radio.Group onChange={onChange} value={value}>
-                            <Radio value={0} style={{ fontSize: '18px' }}>Phone</Radio>
+                        <div className="phone"><Radio.Group onChange={onChange} value={value} size="large">
+                            <Radio value={0} className="radio-phone">Phone</Radio>
                         </Radio.Group></div>
                     </div>
                     <div className="contact-1">
-                        <div className="email-1"><Input placeholder="Email" style={{ color: 'white', width:'105%', height:'6vh', fontSize:'18px'}}/></div>
-                        <div className="email-2"><Button type="message" style={{ backgroundColor:' rgb(241, 79, 98)' ,color: 'white', width:'70%', height:'6vh', fontSize:'18px'}}>Share App Link</Button></div>
+                        <div className="email-1"><Input placeholder="Email" style={{ color: 'white', width: '105%', height: '6vh', fontSize: '20px' }} /></div>
+                        <div className="email-2"><Button type="message" style={{ backgroundColor: ' rgb(241, 79, 98)', color: 'white', width: '60%', height: '6vh', fontSize: '17px', fontWeight: '400' }}>Share App Link</Button></div>
                     </div>
                     <p className="download-app">Download app from</p>
-                    <div className="download-link">
+                    <div className="download-link-1">
                         <div className="android">
                             <Link to="https://play.google.com/store/apps/details?id=com..application.zomato&_branch_match_id=1144157600425835932&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3STcxLKcrPTAEABp6kzyEAAAA%3D">
-                                <img src={"https://icon-library.com/images/google-play-download-icon/google-play-download-icon-2.jpg"} alt="" />
+                                <img className="android-image-1" src={"https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"} alt="" />
                             </Link>
                         </div>
                         <div className="ios">
-                            <Link to="https://play.google.com/store/apps/details?id=com..application.zomato&_branch_match_id=1144157600425835932&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3STcxLKcrPTAEABp6kzyEAAAA%3D" target="_blank"><img src={"https://icon-library.com/images/app-store-icon-png/app-store-icon-png-14.jpg"} alt="" />
+                            <Link to="https://play.google.com/store/apps/details?id=com..application.zomato&_branch_match_id=1144157600425835932&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3STcxLKcrPTAEABp6kzyEAAAA%3D" target="_blank"><img className="ios-image-1" src={"https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"} alt="" />
                             </Link>
 
                         </div>

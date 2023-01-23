@@ -36,7 +36,7 @@ const Navbar = () => {
                     <div className="search-item">
                         <i className="fas fa-search"></i>
                         <BsSearch size={40} />
-                        <input type="text" placeholder="Search for restaurant, cuisine or a dish" />
+                        <input type="text" placeholder="Search for restaurant, cuisine or a dish" className='search-para-2' />
                     </div>
                 </div>
             </div>

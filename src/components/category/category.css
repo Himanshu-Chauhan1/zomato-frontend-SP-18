@@ -2,16 +2,14 @@ body {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
 }
 
 .category {
     display: flex;
-    width: 90%;
+    width: 91%;
     margin: auto;
-    font-family: 'Poppins', sans-serif;
+    margin-left: 4%;
 }
-
 
 .order {
     border: 1px solid gainsboro;
@@ -20,7 +18,6 @@ body {
     border-radius: 20px;
     margin-right: -20%;
     margin-left: 23%;
-
 }
 
 .order img {
@@ -28,6 +25,7 @@ body {
     height: 18vh;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .dining img {
@@ -35,6 +33,7 @@ body {
     height: 18vh;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .nightlife img {
@@ -42,6 +41,7 @@ body {
     height: 18vh;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .dining {
@@ -62,19 +62,25 @@ body {
     margin-left: -12%;
 }
 
-/* .content {
-    
-} */
+/* .content */
 
 .heading-category {
     font-size: 21px !important;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 4%;
+    margin-bottom: 1%;
+    font-weight: 540;
+    font-style: normal;
+    letter-spacing: 0.03em;
 }
 
 .description {
     margin-left: 4%;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    color: #4f4f4f;
+    letter-spacing: 0.04em;
 }
 
 .anchor {
@@ -84,16 +90,14 @@ body {
     margin: auto;
     margin-left: 3%;
     margin-right: 3%;
-
-
+    transition: width 0.2s, height 0.2s, transform 0.2s;
 }
 
 .anchor:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.03, 1.03);
     width: 30%;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
+    -webkit-transition: width all 0.2s ease;
+    -moz-transition: width all 0.2s ease;
     transition: all 0.2s ease;
     color: black;
-
 }

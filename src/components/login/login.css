@@ -1,12 +1,15 @@
-/* CSS FOR SIGNUP FORM*/
+/* CSS FOR LOGIN FORM*/
+.modal-form {
+    margin-top: 0%;
+}
 
 .form-control {
     height: 6vh;
-    font-family: 'Poppins', sans-serif;
 }
 
 .form-check {
     font-size: 13px;
+    color: #4f4f4f;
 }
 
 .checkbox-heading {
@@ -22,12 +25,14 @@
 
 .login-account {
     height: 6vh;
-    margin-top: 4%;
+    width: 100%;
+    margin-top: 2%;
     color: white;
-    margin-bottom: 4%;
-    background-color: rgb(241, 79, 98);
+    margin-bottom: 2%;
+    background-color: #EF4F5F;
     border: 1px solid white;
     border-radius: 10px;
+    font-size: 22px;
 }
 
 .login-account:hover {
@@ -36,6 +41,9 @@
 
 .already {
     font-size: 19px;
+    color: #4f4f4f;
+    width: 100%;
+    margin-left: -3.7%;
 }
 
 .login-button {
