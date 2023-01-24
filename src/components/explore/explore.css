@@ -19,7 +19,7 @@ body {
 
 .panel {
     margin-top: 2%;
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 400;
     font-style: normal;
     color: #1c1c1c;
@@ -28,6 +28,7 @@ body {
     border-radius: 10px !important;
     border-style: unset;
     letter-spacing: 0.03em;
+    padding: 1px 1px;
 }
 
 .panel:hover {

@@ -10,7 +10,7 @@ const handleChange = (value) => {
 
 const Footer = () => (
     <div className="main-container-1">
-        <div className="container">
+        <div className="container-footer">
             <div className="headings">
                 <section className="zomato-name">
                     <img src={"https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*"} alt="" />
