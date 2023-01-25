@@ -28,7 +28,7 @@ function ZomatoApp() {
                     </div>
                     <div className="contact-1">
                         <div className="email-1"><Input placeholder="Email" style={{ color: 'white', width: '105%', height: '6vh', fontSize: '20px' }} /></div>
-                        <div className="email-2"><Button type="message" style={{ backgroundColor: ' rgb(241, 79, 98)', color: 'white', width: '60%', height: '6vh', fontSize: '17px', fontWeight: '400' }}>Share App Link</Button></div>
+                        <div className="email-2"><Button type="message" style={{ backgroundColor: ' rgb(241, 79, 98)', color: 'white', width: '60%', height: '6vh', fontSize: '17px', fontWeight: '400' }}>Share</Button></div>
                     </div>
                     <p className="download-app">Download app from</p>
                     <div className="download-link-1">
