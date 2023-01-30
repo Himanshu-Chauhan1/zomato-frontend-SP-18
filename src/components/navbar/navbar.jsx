@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiLocationMarker } from "react-icons/hi";
 import { MdOutlineAppSettingsAlt } from "react-icons/md";
-import { BsSearch } from "react-icons/bs";
+// import { BsSearch } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
@@ -25,7 +25,7 @@ const Navbar = () => {
                         <div className='app-heading'>
                             <NavLink to="/" className="app-heading-a"><li><MdOutlineAppSettingsAlt /> Get the App</li></NavLink>
                         </div>
-                        <div className="menu-icon" onClick={handleShowNavbar}>
+                        <div className="menu-icon-1" onClick={handleShowNavbar}>
                             <FaBars color="white" size={20} className='menu-icon-bs' />
                         </div>
                         <div className={`nav-elements  ${showNavbar && 'active'}`}>
@@ -39,7 +39,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <NavLink>
-                                        <img className='navlink-image' src={"https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*"} alt="" />
+                                        <img className='navlink-image-1' src={"https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"} alt="hello" />
                                     </NavLink>
                                 </li>
                                 <li>

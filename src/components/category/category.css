@@ -207,3 +207,107 @@ body {
         color: black;
     }
 }
+
+@media (max-width: 600px) {
+    .category {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 76vh;
+        margin: auto;
+        margin-top: -10%;
+    }
+
+    .order {
+        border: 1px solid gainsboro;
+        height: 162px;
+        width: 220px;
+        margin-top: 20px;
+        margin-left: 26px;
+        border-radius: 20px;
+    }
+
+    .order img {
+        width: 218px;
+        height: 90px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        object-fit: cover;
+    }
+
+    .dining img {
+        width: 218px;
+        height: 90px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        object-fit: cover;
+    }
+
+    .nightlife img {
+        width: 218px;
+        height: 90px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        object-fit: cover;
+    }
+
+    .dining {
+        border: 1px solid gainsboro;
+        height: 162px;
+        width: 220px;
+        margin: auto;
+        margin-top: 5px;
+        margin-left: 26px;
+        border-radius: 20px;
+    }
+
+    .nightlife {
+        border: 1px solid gainsboro;
+        height: 162px;
+        width: 220px;
+        margin: auto;
+        margin-top: 5px;
+        margin-left: 26px;
+        border-radius: 20px;
+    }
+
+    /* .content */
+
+    .heading-category {
+        font-size: 14px !important;
+        margin-top: 4%;
+        margin-left: 4%;
+        margin-bottom: 1%;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 0.03em;
+    }
+
+    .description {
+        margin-left: 4%;
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        color: #4f4f4f;
+        letter-spacing: 0.04em;
+    }
+
+    .anchor {
+        width: 30%;
+        text-decoration: none;
+        color: black;
+        margin: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+        transition: width 0.2s, height 0.2s, transform 0.2s;
+    }
+
+    .anchor:hover {
+        transform: scale(1.03, 1.03);
+        width: 30%;
+        -webkit-transition: width all 0.2s ease;
+        -moz-transition: width all 0.2s ease;
+        transition: all 0.2s ease;
+        color: black;
+    }
+}

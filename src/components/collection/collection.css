@@ -208,3 +208,105 @@ body {
     }
 
 }
+@media (max-width: 600px) {
+    .main-collection {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .collection-heading {
+        margin-top: 2%;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20pt;
+    }
+
+    .collection-paragraph {
+        font-size: 12px;
+        font-weight: 300;
+        font-style: normal;
+        margin-bottom: -2%;
+    }
+
+    .city-collection {
+        margin-right: 1%;
+        font-size: 12px;
+        font-style: normal;
+        letter-spacing: 0.02em;
+    }
+
+    .city-collection a {
+        text-decoration: none;
+        color: rgb(238, 106, 121);
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .collection {
+        display: none;
+    }
+
+    .city-collection a:hover {
+        color: rgb(238, 106, 121);
+    }
+
+    .mobile-collection {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    .mobile-collection-anchor {
+        width: 160px;
+        height: 180px;
+        margin: auto;
+    }
+
+    .mobile-collection-item {
+        width: 160px;
+        height: 180px;
+        margin: auto;
+    }
+
+    .mobile-collection-item img {
+        width: 150px;
+        height: 177px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        object-fit: cover;
+        margin-left: 3px;
+    }
+
+    .mobile-bottom-left {
+        position: relative;
+        font-size: 14px;
+        color: white;
+        margin-left: 1%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        text-overflow: ellipsis !important;
+        white-space: nowrap;
+        margin-top: -30%;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .mobile-bottom-left1 {
+        position: relative;
+        margin-top: -5%;
+        font-size: 14px;
+        color: white;
+        margin-left: 1%;
+        font-weight: 500;
+        text-decoration: none !important;
+    }
+
+}

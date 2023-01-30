@@ -156,6 +156,7 @@ body {
         display: flex;
         justify-content: center;
         background-color: #FEFBF6;
+        overflow-x: hidden;
     }
 
     .left-part {
