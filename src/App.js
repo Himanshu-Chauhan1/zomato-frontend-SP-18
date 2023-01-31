@@ -1,40 +1,38 @@
-import './components/navbar/navbar.css';
-import './components/category/category.css';
-import './components/signup/signup.css'
-import './components/login/login.css'
-import './components/collection/collection.css'
-import './components/localities/localities.css'
-import './components/app/app.css'
-import './components/explore/explore.css'
-import './components/footer/footer.css'
-import './components/common/modal/index.css'
+import './components/homepage/navbar/navbar.css';
+import './components/homepage/category/category.css';
+import './components/homepage/signup/signup.css'
+import './components/homepage/login/login.css'
+import './components/homepage/collection/collection.css'
+import './components/homepage/localities/localities.css'
+import './components/homepage/app/app.css'
+import './components/homepage/explore/explore.css'
+import './components/homepage/footer/footer.css'
+import './components/homepage/common/modal/index.css'
 import React from 'react';
-import Navbar from './components/navbar/navbar';
-import Category from './components/category/category';
-import SignUpModal from './components/signup/signupModal'
-import LoginModal from './components/login/loginModal'
-import Collection1 from './components/collection/collection';
-import Localities from './components/localities/localities';
-import ZomatoApp from './components/app/app';
-import CollapsePanel from './components/explore/explore';
-import Footer from './components/footer/footer';
+import Navbar from './components/homepage/navbar/navbar';
+import Category from './components/homepage/category/category';
+import SignUpModal from './components/homepage/signup/signupModal'
+import LoginModal from './components/homepage/login/loginModal'
+import Collection1 from './components/homepage/collection/collection';
+import Localities from './components/homepage/localities/localities';
+import ZomatoApp from './components/homepage/app/app';
+import CollapsePanel from './components/homepage/explore/explore';
+import Footer from './components/homepage/footer/footer';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <SignUpModal />
-      <LoginModal />
-      <Category />
-      <Collection1 />
-      <Localities />
-      <ZomatoApp />
-      <CollapsePanel />
-      <Footer />
+        <Navbar />
+        <SignUpModal />
+        <LoginModal />
+        <Category />
+        <Collection1 />
+        <Localities />
+        <ZomatoApp />
+        <CollapsePanel />
+        <Footer />
     </div>
-
-
   );
 }
 

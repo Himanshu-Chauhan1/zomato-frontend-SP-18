@@ -11,7 +11,7 @@ function ZomatoApp() {
     };
     return (
         <>
-            <div className="main">
+            <div className="main-1">
                 <div className="left-part">
                     <img src={"https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png"} className="left-part-image" alt="" />
                 </div>

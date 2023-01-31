@@ -6,7 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { FaBars } from "react-icons/fa";
-import '../navbar/navbar.css'
+import './navbar.css'
 
 
 const Navbar = () => {
@@ -39,7 +39,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <NavLink>
-                                        <img className='navlink-image-2' src={"https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"} alt="hello" />
+                                        <img className='navlink-image' src={"https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"} alt="hello" />
                                     </NavLink>
                                 </li>
                                 <li>

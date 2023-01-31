@@ -63,22 +63,22 @@ body {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
 
     .main-heading {
         text-align: left;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
         font-style: normal;
-        letter-spacing: 0.02em;
-        width: 80%;
+        letter-spacing: 0.03em;
+        width: 90%;
         margin: auto;
         margin-top: 20px;
     }
 
     .localities {
-        width: 80%;
-        height: 258px;
+        width: 90%;
+        height: 268px;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -131,21 +131,21 @@ body {
     }
 }
 
-@media (min-width: 380px) and (max-width: 768px) {
+@media (min-width: 450px) and (max-width: 768px) {
 
     .main-heading {
-        text-align: center;
+        text-align: left;
         font-size: 36px;
         font-weight: 450;
         font-style: normal;
         letter-spacing: 0.02em;
-        width: 80%;
+        width: 88%;
         margin: auto;
         margin-top: 70px;
     }
 
     .localities {
-        width: 90%;
+        width: 92%;
         height: 60px;
         margin: auto;
         display: flex;
@@ -272,18 +272,18 @@ body {
 @media (min-width: 992px) and (max-width: 1200px) {
 
     .main-heading {
-        text-align: center;
+        text-align: left;
         font-size: 36px;
         font-weight: 450;
         font-style: normal;
         letter-spacing: 0.02em;
-        width: 80%;
+        width: 88%;
         margin: auto;
         margin-top: 70px;
     }
 
     .localities {
-        width: 90%;
+        width: 92%;
         height: 60px;
         margin: auto;
         display: flex;

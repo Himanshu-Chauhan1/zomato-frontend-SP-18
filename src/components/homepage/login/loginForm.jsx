@@ -17,7 +17,7 @@ const LogIn = () => {
                     <Link to="/login" component={LoginScreen}><button class="login-account" type="button">Log In</button></Link>
                 </div>
                 <div class="form-check">
-                    <Link to="/login" component={LoginScreen}> <label type="text" class="already">New to Zomato? <Link class="login-button" tabindex="-1" role="button" aria-disabled="true">Create Account</Link>
+                    <Link to="/login" component={LoginScreen}> <label type="text" class="already-login">New to Zomato? <Link class="login-button" tabindex="-1" role="button" aria-disabled="true">Create Account</Link>
                     </label></Link>
                 </div>
             </form>
