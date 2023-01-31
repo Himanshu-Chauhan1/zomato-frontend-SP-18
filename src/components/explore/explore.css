@@ -43,13 +43,13 @@ body {
         padding: 0;
         text-decoration: none;
     }
-    
+
     .main-container {
         width: 80%;
         height: 400px;
         margin: auto;
     }
-    
+
     .collapse-heading {
         margin-top: 35px;
         margin-bottom: 3%;
@@ -57,7 +57,7 @@ body {
         font-weight: 500;
         font-style: normal;
     }
-    
+
     .panel {
         margin-top: 18px;
         font-size: 20px;
@@ -71,25 +71,26 @@ body {
         letter-spacing: 0.03em;
         padding: 1px 1px;
     }
-    
+
     .panel:hover {
         box-shadow: 0.6px 0.6px gainsboro;
         color: black;
     }
 }
+
 @media (max-width: 600px) {
     body {
         margin: 0;
         padding: 0;
         text-decoration: none;
     }
-    
+
     .main-container {
         width: 80%;
         height: 400px;
         margin: auto;
     }
-    
+
     .collapse-heading {
         margin-top: 35px;
         margin-bottom: 3%;
@@ -97,7 +98,7 @@ body {
         font-weight: 500;
         font-style: normal;
     }
-    
+
     .panel {
         margin-top: 18px;
         font-size: 20px;
@@ -111,7 +112,171 @@ body {
         letter-spacing: 0.03em;
         padding: 1px 1px;
     }
-    
+
+    .panel:hover {
+        box-shadow: 0.6px 0.6px gainsboro;
+        color: black;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .main-container {
+        width: 95%;
+        height: 400px;
+        margin: auto;
+    }
+
+    .collapse-heading {
+        margin-top: 50px;
+        margin-bottom: 3%;
+        font-size: 22px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .panel {
+        margin-top: 25px;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        color: #1c1c1c;
+        background-color: white;
+        border: 1px solid #E8E8E8 !important;
+        border-radius: 10px !important;
+        border-style: unset;
+        letter-spacing: 0.03em;
+        padding: 1px 1px;
+    }
+
+    .panel:hover {
+        box-shadow: 0.6px 0.6px gainsboro;
+        color: black;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .main-container {
+        width: 95%;
+        height: 400px;
+        margin: auto;
+    }
+
+    .collapse-heading {
+        margin-top: 50px;
+        margin-bottom: 3%;
+        font-size: 22px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .panel {
+        margin-top: 25px;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        color: #1c1c1c;
+        background-color: white;
+        border: 1px solid #E8E8E8 !important;
+        border-radius: 10px !important;
+        border-style: unset;
+        letter-spacing: 0.03em;
+        padding: 1px 1px;
+    }
+
+    .panel:hover {
+        box-shadow: 0.6px 0.6px gainsboro;
+        color: black;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .main-container {
+        width: 95%;
+        height: 400px;
+        margin: auto;
+    }
+
+    .collapse-heading {
+        margin-top: 50px;
+        margin-bottom: 3%;
+        font-size: 22px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .panel {
+        margin-top: 25px;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        color: #1c1c1c;
+        background-color: white;
+        border: 1px solid #E8E8E8 !important;
+        border-radius: 10px !important;
+        border-style: unset;
+        letter-spacing: 0.03em;
+        padding: 1px 1px;
+    }
+
+    .panel:hover {
+        box-shadow: 0.6px 0.6px gainsboro;
+        color: black;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .main-container {
+        width: 95%;
+        height: 400px;
+        margin: auto;
+    }
+
+    .collapse-heading {
+        margin-top: 50px;
+        margin-bottom: 3%;
+        font-size: 22px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .panel {
+        margin-top: 25px;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        color: #1c1c1c;
+        background-color: white;
+        border: 1px solid #E8E8E8 !important;
+        border-radius: 10px !important;
+        border-style: unset;
+        letter-spacing: 0.03em;
+        padding: 1px 1px;
+    }
+
     .panel:hover {
         box-shadow: 0.6px 0.6px gainsboro;
         color: black;

@@ -10,7 +10,7 @@ body {
     margin-top: 4%;
 }
 
-.mobile-main-container{
+.mobile-main-container {
     display: none;
 }
 
@@ -398,6 +398,593 @@ body {
         margin-top: 60px;
     }
 
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .main-container-1 {
+        background-color: #f8f8f8;
+        width: 100%;
+        margin-top: 4%;
+    }
+
+    .mobile-main-container {
+        display: none;
+    }
+
+    .container-footer {
+        width: 98%;
+        height: 38vh;
+        overflow: hidden;
+        margin-top: 4%;
+        margin: auto;
+    }
+
+    .headings {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 12vh;
+        padding-top: 4%;
+    }
+
+    .zomato-name {
+        width: 20%;
+        margin-left: 4.3%;
+        font-weight: bold;
+    }
+
+    .zomato-name img {
+        width: 52%;
+        margin-left: 5%;
+        font-weight: bold;
+        object-fit: cover;
+    }
+
+    .select-country {
+        width: 10%;
+        height: 5vh;
+        margin-left: 48%;
+    }
+
+    .select-country-name {
+        width: 100%;
+    }
+
+    .select-language {
+        width: 10%;
+        height: 5vh;
+        margin-left: 1%;
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-evenly;
+        width: 89%;
+        height: 60vh;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    .footer-heading {
+        font-size: 14px;
+        margin-top: 3%;
+        width: 100%;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 0.16em;
+    }
+
+    .footer-content {
+        text-decoration: none;
+        color: #4f4f4f;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 0.07em;
+    }
+
+    .footer-content:hover {
+        color: rgb(124, 123, 123);
+    }
+
+    .about-zomato {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+        height: 20vh;
+    }
+
+    .zomaverse {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+        height: 20vh;
+        margin-left: -15px;
+    }
+
+    .places {
+        width: 20%;
+        height: 20vh;
+        margin-left: -5px;
+    }
+
+    .restaurants {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .enterprises {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 4%;
+    }
+
+    .learn-more {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+        height: 20vh;
+        margin-left: 10px;
+    }
+
+    .social-links {
+        margin-right: -20px;
+        width: 20%;
+        height: 20vh;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-left: -6px;
+        margin-top: 5px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .download-link-2 {
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        align-items: center;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+
+    .android-image {
+        object-fit: fill;
+        width: 9rem;
+        height: 2.5rem;
+        margin-top: 1%;
+        overflow: hidden;
+        position: absolute;
+    }
+
+
+    .ios-image {
+        object-fit: fill;
+        width: 9rem;
+        height: 2.5rem;
+        margin-top: 70px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .footer-bottom {
+        width: 90%;
+        margin: auto;
+        color: #4f4f4f;
+        font-size: 14.5px;
+        font-weight: 300;
+        height: 15vh;
+        font-family: Okra, Helvetica, sans-serif;
+        font-style: normal;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .main-container-1 {
+        background-color: #f8f8f8;
+        width: 100%;
+        margin-top: 4%;
+    }
+
+    .mobile-main-container {
+        display: none;
+    }
+
+    .container-footer {
+        width: 98%;
+        height: 38vh;
+        overflow: hidden;
+        margin-top: 4%;
+        margin: auto;
+    }
+
+    .headings {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 12vh;
+        padding-top: 4%;
+    }
+
+    .zomato-name {
+        width: 20%;
+        margin-left: 4.3%;
+        font-weight: bold;
+    }
+
+    .zomato-name img {
+        width: 52%;
+        margin-left: 5%;
+        font-weight: bold;
+        object-fit: cover;
+    }
+
+    .select-country {
+        width: 10%;
+        height: 5vh;
+        margin-left: 48%;
+    }
+
+    .select-country-name {
+        width: 100%;
+    }
+
+    .select-language {
+        width: 10%;
+        height: 5vh;
+        margin-left: 1%;
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-evenly;
+        width: 89%;
+        height: 60vh;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    .footer-heading {
+        font-size: 14px;
+        margin-top: 3%;
+        width: 100%;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 0.16em;
+    }
+
+    .footer-content {
+        text-decoration: none;
+        color: #4f4f4f;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 0.07em;
+    }
+
+    .footer-content:hover {
+        color: rgb(124, 123, 123);
+    }
+
+    .about-zomato {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+        height: 20vh;
+    }
+
+    .zomaverse {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+        height: 20vh;
+    }
+
+    .places {
+        width: 20%;
+        height: 20vh;
+    }
+
+    .restaurants {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .enterprises {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 4%;
+    }
+
+    .learn-more {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+        height: 20vh;
+    }
+
+    .social-links {
+        width: 20%;
+        height: 20vh;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        margin-left: -24px;
+        margin-top: 5px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .download-link-2 {
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        align-items: center;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+
+    .android-image {
+        object-fit: fill;
+        width: 9rem;
+        height: 2.5rem;
+        margin-top: 1%;
+        overflow: hidden;
+        position: absolute;
+    }
+
+
+    .ios-image {
+        object-fit: fill;
+        width: 9rem;
+        height: 2.5rem;
+        margin-top: 70px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .footer-bottom {
+        width: 90%;
+        margin: auto;
+        color: #4f4f4f;
+        font-size: 14.5px;
+        font-weight: 300;
+        height: 15vh;
+        font-family: Okra, Helvetica, sans-serif;
+        font-style: normal;
+    }
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .main-container-1 {
+        background-color: #f8f8f8;
+        width: 100%;
+        margin-top: 4%;
+    }
+
+    .mobile-main-container {
+        display: none;
+    }
+
+    .container-footer {
+        width: 98%;
+        height: 38vh;
+        overflow: hidden;
+        margin-top: 4%;
+        margin: auto;
+    }
+
+    .headings {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 12vh;
+        padding-top: 4%;
+    }
+
+    .zomato-name {
+        width: 20%;
+        margin-left: 4.3%;
+        font-weight: bold;
+    }
+
+    .zomato-name img {
+        width: 52%;
+        margin-left: 5%;
+        font-weight: bold;
+        object-fit: cover;
+    }
+
+    .select-country {
+        width: 10%;
+        height: 5vh;
+        margin-left: 48%;
+    }
+
+    .select-country-name {
+        width: 100%;
+    }
+
+    .select-language {
+        width: 10%;
+        height: 5vh;
+        margin-left: 1%;
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-evenly;
+        width: 89%;
+        height: 60vh;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    .footer-heading {
+        font-size: 14px;
+        margin-top: 3%;
+        width: 100%;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 0.16em;
+    }
+
+    .footer-content {
+        text-decoration: none;
+        color: #4f4f4f;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 0.07em;
+    }
+
+    .footer-content:hover {
+        color: rgb(124, 123, 123);
+    }
+
+    .about-zomato {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+        height: 20vh;
+    }
+
+    .zomaverse {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+        height: 20vh;
+    }
+
+    .places {
+        width: 20%;
+        height: 20vh;
+    }
+
+    .restaurants {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .enterprises {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 4%;
+    }
+
+    .learn-more {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+        height: 20vh;
+    }
+
+    .social-links {
+        width: 20%;
+        height: 20vh;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+        width: 70%;
+        margin-left: -26px;
+        margin-top: 5px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .download-link-2 {
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        align-items: center;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+
+    .android-image {
+        object-fit: fill;
+        width: 9rem;
+        height: 2.5rem;
+        margin-top: 1%;
+        overflow: hidden;
+        position: absolute;
+    }
+
+
+    .ios-image {
+        object-fit: fill;
+        width: 9rem;
+        height: 2.5rem;
+        margin-top: 70px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .footer-bottom {
+        width: 90%;
+        margin: auto;
+        color: #4f4f4f;
+        font-size: 14.5px;
+        font-weight: 300;
+        height: 15vh;
+        font-family: Okra, Helvetica, sans-serif;
+        font-style: normal;
+    }
 
 
 }

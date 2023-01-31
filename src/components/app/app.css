@@ -147,16 +147,15 @@ body {
 }
 
 
-@media (max-width: 600px) {
-
+@media (max-width: 380px) {
     .main {
         margin-top: 8%;
         width: 100%;
         height: 60vh;
         display: flex;
         justify-content: center;
+        overflow: hidden;
         background-color: #FEFBF6;
-        overflow-x: hidden;
     }
 
     .left-part {
@@ -164,9 +163,8 @@ body {
     }
 
     .right-part {
-        width: 80%;
-        height: 380px;
-        margin: auto;
+        width: 95%;
+        height: 60vh;
     }
 
     .zomato-heading {
@@ -211,38 +209,42 @@ body {
 
     .email-1 {
         margin-top: 15px;
-        width: 180px;
+        width: 220px;
         height: 48px;
     }
 
     .email-2 {
         margin-top: 15px;
-        margin-left: 18px;
+        margin-left: 15px;
         width: 135px;
+    }
+
+    .email-1 input {
+        height: 6vh;
+    }
+
+    .email-2 button {
+        height: 6vh;
+        margin-left: 5px;
     }
 
     .download-link-1 {
         display: flex;
-        width: 100%;
+        width: 85%;
+        margin: auto;
         justify-content: space-evenly;
         height: 10vh;
         align-items: center;
-        margin-left: 0.2%;
     }
 
-
     .android-image-1 {
-        object-fit: fill;
-        width: 137px;
-        height: 40px;
+        object-fit: contain;
         overflow: hidden;
         position: absolute;
     }
 
     .ios-image-1 {
-        object-fit: fill;
-        width: 137px;
-        height: 40px;
+        object-fit: contain;
         overflow: hidden;
         position: absolute;
     }
@@ -254,6 +256,753 @@ body {
         font-size: 15px;
         letter-spacing: 0.02em;
         text-align: center;
+    }
+
+
+    /* ant design */
+
+    .ant-radio-checked .ant-radio-inner {
+        background-color: white !important;
+        border-color: red !important;
+        border: 9px solid red !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner:after {
+        border-color: red !important;
+        background-color: white !important;
+    }
+
+    .ant-radio:hover .ant-radio-inner {
+        background-color: white !important;
+        border: 8px solid red !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner:focus {
+        background-color: red !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .main {
+        margin-top: 100px;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        background-color: #FEFBF6;
+    }
+
+    .left-part {
+        display: none;
+    }
+
+    .right-part {
+        width: 95%;
+        height: 60vh;
+    }
+
+    .zomato-heading {
+        margin-top: 15%;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+        text-align: center;
+    }
+
+    .zomato-paragraph {
+        width: 100%;
+        font-weight: 300;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        text-align: center;
+    }
+
+    .contact {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .contact-1 {
+        display: flex;
+        justify-content: center;
+        width: 120%;
+        margin-top: 2%;
+    }
+
+    .radio-email {
+        font-weight: 300 !important;
+        font-size: 17px;
+    }
+
+    .radio-phone {
+        font-weight: 300 !important;
+        font-size: 17px;
+    }
+
+    .email-1 {
+        margin-top: 15px;
+        width: 250px;
+        height: 48px;
+    }
+
+    .email-2 {
+        margin-top: 15px;
+        margin-left: 14px;
+        width: 135px;
+    }
+
+    .email-1 input {
+        height: 6vh;
+    }
+
+    .email-2 button {
+        height: 6vh;
+        margin-left: 5px;
+    }
+
+    .download-link-1 {
+        display: flex;
+        width: 85%;
+        margin: auto;
+        justify-content: space-evenly;
+        height: 10vh;
+        align-items: center;
+    }
+
+    .android-image-1 {
+        object-fit: contain;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .ios-image-1 {
+        object-fit: contain;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .download-app {
+        font-weight: 350;
+        color: #9c9c9c;
+        margin-top: 12px;
+        font-size: 15px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+
+    /* ant design */
+
+    .ant-radio-checked .ant-radio-inner {
+        background-color: white !important;
+        border-color: red !important;
+        border: 9px solid red !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner:after {
+        border-color: red !important;
+        background-color: white !important;
+    }
+
+    .ant-radio:hover .ant-radio-inner {
+        background-color: white !important;
+        border: 8px solid red !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner:focus {
+        background-color: red !important;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+    .main {
+        margin-top: 160px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        background-color: #FEFBF6;
+    }
+
+    .left-part {
+        width: 50%;
+        height: 40vh;
+    }
+
+    .left-part-image {
+        width: 100%;
+        object-fit: cover;
+        transform: scale(1.8);
+        transition: all 1.4s ease 0s;
+        padding-bottom: 50px;
+    }
+
+    .right-part {
+        width: 50%;
+        height: 40vh;
+        margin-left: 50px;
+    }
+
+    .zomato-heading {
+        margin-top: 80px;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .zomato-paragraph {
+        width: 52%;
+        font-weight: 300;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .contact {
+        margin-top: 20px;
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .contact-1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .radio-email {
+        font-weight: 300 !important;
+        font-size: 17px;
+    }
+
+    .radio-phone {
+        font-weight: 300 !important;
+        font-size: 17px;
+    }
+
+    .email-1 {
+        margin-top: 15px;
+        width: 222px;
+    }
+
+    .email-2 {
+        margin-top: 15px;
+        margin-left: 18px;
+        width: 150px;
+    }
+
+    .email-1 input {
+        height: 4vh;
+        margin-left: 4px;
+    }
+
+    .email-2 button {
+        height: 4vh;
+        margin-left: 5px;
+    }
+
+    .download-link-1 {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        height: 10vh;
+        align-items: center;
+        margin-left: 2%;
+    }
+
+
+    .android-image-1 {
+        object-fit: cover;
+        width: 167px;
+        height: 50px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .ios-image-1 {
+        object-fit: cover;
+        width: 167px;
+        height: 50px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .download-app {
+        font-weight: 350;
+        color: #9c9c9c;
+        margin-top: 12px;
+        font-size: 15px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+
+    /* ant design */
+
+    .ant-radio-checked .ant-radio-inner {
+        background-color: white !important;
+        border-color: red !important;
+        border: 9px solid red !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner:after {
+        border-color: red !important;
+        background-color: white !important;
+    }
+
+    .ant-radio:hover .ant-radio-inner {
+        background-color: white !important;
+        border: 8px solid red !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner:focus {
+        background-color: red !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .main {
+        margin-top: 160px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        background-color: #FEFBF6;
+    }
+
+    .left-part {
+        width: 40%;
+        height: 40vh;
+    }
+
+    .left-part-image {
+        width: 100%;
+        object-fit: cover;
+        transform: scale(1.6);
+        transition: all 1.4s ease 0s;
+        padding-bottom: 50px;
+    }
+
+    .right-part {
+        width: 60%;
+        height: 40vh;
+        margin-left: 50px;
+    }
+
+    .zomato-heading {
+        margin-top: 80px;
+        font-size: 46px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .zomato-paragraph {
+        width: 85%;
+        font-weight: 300;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .contact {
+        margin-top: 20px;
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .contact-1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .radio-email {
+        font-weight: 300 !important;
+        font-size: 17px;
+    }
+
+    .radio-phone {
+        font-weight: 300 !important;
+        font-size: 17px;
+    }
+
+    .email-1 {
+        margin-top: 15px;
+        width: 300px;
+    }
+
+    .email-2 {
+        margin-top: 15px;
+        margin-left: 18px;
+        width: 240px;
+    }
+
+    .email-1 input {
+        height: 4vh;
+        margin-left: 4px;
+    }
+
+    .email-2 button {
+        height: 4vh;
+        margin-left: 12px;
+    }
+
+    .download-link-1 {
+        display: flex;
+        width: 70%;
+        justify-content: space-evenly;
+        height: 10vh;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+
+    .android-image-1 {
+        object-fit: cover;
+        width: 167px;
+        height: 50px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .ios-image-1 {
+        object-fit: cover;
+        width: 167px;
+        height: 50px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .download-app {
+        font-weight: 350;
+        color: #9c9c9c;
+        margin-top: 12px;
+        font-size: 15px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+
+    /* ant design */
+
+    .ant-radio-checked .ant-radio-inner {
+        background-color: white !important;
+        border-color: red !important;
+        border: 9px solid red !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner:after {
+        border-color: red !important;
+        background-color: white !important;
+    }
+
+    .ant-radio:hover .ant-radio-inner {
+        background-color: white !important;
+        border: 8px solid red !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner:focus {
+        background-color: red !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main {
+        margin-top: 160px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        background-color: #FEFBF6;
+    }
+
+    .left-part {
+        width: 40%;
+        height: 40vh;
+    }
+
+    .left-part-image {
+        width: 100%;
+        object-fit: cover;
+        transform: scale(1.4);
+        transition: all 1.4s ease 0s;
+        padding-bottom: 50px;
+    }
+
+    .right-part {
+        width: 60%;
+        height: 40vh;
+        margin-left: 50px;
+    }
+
+    .zomato-heading {
+        margin-top: 80px;
+        font-size: 46px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .zomato-paragraph {
+        width: 70%;
+        font-weight: 300;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .contact {
+        margin-top: 20px;
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .contact-1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .radio-email {
+        font-weight: 300 !important;
+        font-size: 17px;
+    }
+
+    .radio-phone {
+        font-weight: 300 !important;
+        font-size: 17px;
+    }
+
+    .email-1 {
+        margin-top: 15px;
+        width: 300px;
+    }
+
+    .email-2 {
+        margin-top: 15px;
+        margin-left: 18px;
+        width: 240px;
+    }
+
+    .email-1 input {
+        height: 4vh;
+        margin-left: -57px;
+    }
+
+    .email-2 button {
+        height: 4vh;
+        margin-left: -40px;
+    }
+
+    .download-link-1 {
+        display: flex;
+        width: 60%;
+        justify-content: space-evenly;
+        height: 10vh;
+        align-items: center;
+        margin-left: 8px;
+    }
+
+
+    .android-image-1 {
+        object-fit: cover;
+        width: 167px;
+        height: 50px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .ios-image-1 {
+        object-fit: cover;
+        width: 167px;
+        height: 50px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .download-app {
+        font-weight: 350;
+        color: #9c9c9c;
+        margin-top: 12px;
+        font-size: 15px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin-left: 8px;
+    }
+
+
+    /* ant design */
+
+    .ant-radio-checked .ant-radio-inner {
+        background-color: white !important;
+        border-color: red !important;
+        border: 9px solid red !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner:after {
+        border-color: red !important;
+        background-color: white !important;
+    }
+
+    .ant-radio:hover .ant-radio-inner {
+        background-color: white !important;
+        border: 8px solid red !important;
+    }
+
+    .ant-radio-checked .ant-radio-inner:focus {
+        background-color: red !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .main {
+        margin-top: 160px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        background-color: #FEFBF6;
+    }
+
+    .left-part {
+        width: 40%;
+        height: 40vh;
+    }
+
+    .left-part-image {
+        width: 100%;
+        object-fit: cover;
+        transform: scale(1.3);
+        transition: all 1.4s ease 0s;
+        padding-bottom: 50px;
+    }
+
+    .right-part {
+        width: 60%;
+        height: 40vh;
+        margin-left: 50px;
+    }
+
+    .zomato-heading {
+        margin-top: 80px;
+        font-size: 46px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .zomato-paragraph {
+        width: 70%;
+        font-weight: 300;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .contact {
+        margin-top: 20px;
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .contact-1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .radio-email {
+        font-weight: 300 !important;
+        font-size: 17px;
+    }
+
+    .radio-phone {
+        font-weight: 300 !important;
+        font-size: 17px;
+    }
+
+    .email-1 {
+        margin-top: 15px;
+        width: 350px;
+    }
+
+    .email-2 {
+        margin-top: 15px;
+        margin-left: 18px;
+        width: 240px;
+    }
+
+    .email-1 input {
+        height: 4vh;
+        margin-left: -90px;
+    }
+
+    .email-2 button {
+        height: 4vh;
+        margin-left: -80px;
+    }
+
+    .download-link-1 {
+        display: flex;
+        width: 50%;
+        justify-content: space-evenly;
+        height: 10vh;
+        align-items: center;
+        margin-left: 8px;
+    }
+
+
+    .android-image-1 {
+        object-fit: cover;
+        width: 167px;
+        height: 50px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .ios-image-1 {
+        object-fit: cover;
+        width: 167px;
+        height: 50px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .download-app {
+        font-weight: 350;
+        color: #9c9c9c;
+        margin-top: 12px;
+        font-size: 15px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin-left: 8px;
     }
 
 
