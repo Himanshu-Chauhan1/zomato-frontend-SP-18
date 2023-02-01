@@ -5,7 +5,7 @@ import { AiFillTwitterCircle, AiFillInstagram } from "react-icons/ai";
 import { TiSocialYoutubeCircular } from "react-icons/ti";
 import { BsFacebook } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import ContactUs from "../../contactus/contactus"
+import '../footer/footer.css'
 
 const handleChange = (value) => {
     console.log(`selected ${value}`);
@@ -81,7 +81,7 @@ const Footer = () => (
                         <h6 className="footer-heading">ABOUT ZOMATO</h6>
                         <Link to="/" className="footer-content">Who We Are</Link>
                         <Link to="/" className="footer-content">Work With Us</Link>
-                        <Link to="/contactus" className="footer-content" innerRef={ContactUs}>Contact Us</Link>
+                        <Link to="/contactus" className="footer-content">Contact Us</Link>
                     </section>
                     <section className="zomaverse">
                         <h6 className="footer-heading">ZOMAVERSE</h6>

@@ -37,7 +37,7 @@ body {
 }
 
 
-@media (max-width: 380px) {
+@media (max-width: 320px) {
     body {
         margin: 0;
         padding: 0;
@@ -46,7 +46,7 @@ body {
 
     .main-container {
         width: 80%;
-        height: 400px;
+        height: 445px;
         margin: auto;
     }
 
@@ -78,7 +78,7 @@ body {
     }
 }
 
-@media (max-width: 380px) {
+@media (min-width: 321px) and (max-width:380px) {
     body {
         margin: 0;
         padding: 0;
@@ -87,7 +87,7 @@ body {
 
     .main-container {
         width: 90%;
-        height: 350px;
+        height: 360px;
         margin: auto;
     }
 
@@ -120,7 +120,7 @@ body {
     }
 }
 
-@media (min-width: 380px) and (max-width: 768px) {
+@media (min-width: 381px) and (max-width: 768px) {
     body {
         margin: 0;
         padding: 0;
@@ -134,7 +134,7 @@ body {
     }
 
     .collapse-heading {
-        margin-top: 30px;
+        margin-top: 40px;
         margin-bottom: 20px;
         margin-left: 4px;
         font-size: 22px;
@@ -211,7 +211,7 @@ body {
     }
 
     .main-container {
-        width: 90%;
+        width: 87%;
         height: 400px;
         margin: auto;
     }
@@ -245,6 +245,47 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .main-container {
+        width: 85%;
+        height: 400px;
+        margin: auto;
+    }
+
+    .collapse-heading {
+        margin-top: 50px;
+        margin-bottom: 3%;
+        font-size: 22px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .panel {
+        margin-top: 25px;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        color: #1c1c1c;
+        background-color: white;
+        border: 1px solid #E8E8E8 !important;
+        border-radius: 10px !important;
+        border-style: unset;
+        letter-spacing: 0.03em;
+        padding: 1px 1px;
+    }
+
+    .panel:hover {
+        box-shadow: 0.6px 0.6px gainsboro;
+        color: black;
+    }
+}
+
+@media (min-width: 1401px) and (max-width: 1400px) {
     body {
         margin: 0;
         padding: 0;

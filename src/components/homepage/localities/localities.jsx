@@ -1,4 +1,5 @@
 import React from 'react';
+import '../localities/localities.css'
 import { AiFillCaretRight } from "react-icons/ai";
 
 function localities() {

@@ -2,6 +2,7 @@ import React from 'react';
 import { Radio, Input, Button } from 'antd';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
+import '../app/app.css'
 
 function ZomatoApp() {
     const [value, setValue] = useState(1);
