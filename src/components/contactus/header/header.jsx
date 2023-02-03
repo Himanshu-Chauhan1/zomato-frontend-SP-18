@@ -17,72 +17,68 @@ const Header1 = () => {
     }
 
     return (
-        <div className="container-fluid custom_container">
-            {/* <!-- HEADER --> */}
-            <header>
-                <nav className="contact-navbar">
-                    <div className="contact-container">
-                        <div className="contact-menu-icon" onClick={handleShowNavbar}>
-                            <FaBars color="black" size={20} className='menu-icon-bs' />
-                        </div>
-                        <div className='contact-app-heading'>
-                            <NavLink>
-                                <img className='contact-navlink-image-1' src={"https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"} alt="hello" />
-                            </NavLink>
-                        </div>
-                        <div className="contact-search">
-                            <img className="logo1" src="https://icons8.com/icon/13800/location" alt="" />
-                            <div className="contact-search-item-1">
-                                <i className="fas fa-map-marker-alt"></i>
-                                <HiLocationMarker size={25} color="rgb(255, 126, 139)" />
-                                <p className="contact-search-para">
-                                    <select name="membership" id="membership" className='contact-search-option'>
-                                        <option value="silver" selected>Spark Eighteen, New Delhi</option>
-                                    </select></p>
+        <>
+            <div className="container-fluid-1 custom_container">
+                {/* <!-- HEADER --> */}
+                <header>
+                    <nav className="contact-navbar">
+                        <div className="contact-container">
+                            <div className="contact-menu-icon" onClick={handleShowNavbar}>
+                                <FaBars color="black" size={20} className='contact-menu-icon-bs' />
                             </div>
-                            <div className="contact-search-item-2">
-                                <i className="fas fa-search"></i>
-                                {/* <BsSearch size={30} className="location-marker" /> */}
-                                <input type="text" placeholder="Search for restaurant, cuisine or a dish..........................." className='contact-search-para-2' />
+                            <div className='contact-app-heading'>
+                                <NavLink>
+                                    <img className='contact-navlink-image-1' src={"https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"} alt="hello" />
+                                </NavLink>
+                            </div>
+                            <div className="contact-search">
+                                <img className="logo1" src="https://icons8.com/icon/13800/location" alt="" />
+                                <div className="contact-search-item-1">
+                                    <i className="fas fa-map-marker-alt"></i>
+                                    <HiLocationMarker size={25} color="rgb(255, 126, 139)" />
+                                    <p className="contact-search-para">
+                                        <select name="membership" id="membership" className='contact-search-option'>
+                                            <option value="silver" selected>Spark Eighteen, New Delhi</option>
+                                        </select></p>
+                                </div>
+                                <div className="contact-search-item-2">
+                                    <i className="fas fa-search"></i>
+                                    {/* <BsSearch size={30} className="location-marker" /> */}
+                                    <input type="text" placeholder="Search for restaurant, cuisine or a dish..........................." className='contact-search-para-2' />
+                                </div>
+                            </div>
+                            <div className={`contact-nav-elements  ${showNavbar && 'Active'}`}>
+                                <ul>
+                                    <li>
+                                        <NavLink>
+                                            <div className="contact-menu-icon" onClick={handleShowNavbar}>
+                                                <AiOutlineClose color="black" size={22} className='contact-menu-icon-bs' />
+                                            </div>
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink>
+                                            <img className='contact-navlink-image-2' src={"https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"} alt="hello" />
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink data-bs-toggle="modal" data-bs-target="#login">Log in</NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink data-bs-toggle="modal" data-bs-target="#signup">Sign up</NavLink>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div className={`contact-nav-elements  ${showNavbar && 'active'}`}>
-                            <ul>
-                                <li>
-                                    <NavLink>
-                                        <div className="menu-icon" onClick={handleShowNavbar}>
-                                            <AiOutlineClose color="black" size={22} className='menu-icon-bs' />
-                                        </div>
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink>
-                                        <img className='contact-navlink-image-2' src={"https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"} alt="hello" />
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink data-bs-toggle="modal" data-bs-target="#login">Log in</NavLink>
-                                </li>
-                                <li>
-                                    <NavLink data-bs-toggle="modal" data-bs-target="#signup">Sign up</NavLink>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-                <div className="contact-main-head">
-                    <div className="contact-head">
-                        <h1 className='contact-logo-heading'>We would love to hear from you!</h1>
-                    </div>
-                </div>
-                <div className="image-section">
-                <div className="contact-header-image">
-                    <img src="https://b.zmtcdn.com/webFrontend/8015dbe54fd3659cc0366c1cc77f664c1601890512.jpeg?output-format=webp" alt="" />
-                </div>
-                </div>
-                
-            </header>
-        </div>
+                    </nav>
+                </header>
+            </div>
+            <div className="main-image">
+                <img className='image-contact' src="https://b.zmtcdn.com/webFrontend/8015dbe54fd3659cc0366c1cc77f664c1601890512.jpeg?output-format=webp" alt="" />
+                <p className="image-heading">We would love to hear from you!</p>
+            </div>
+        </>
+
     );
 }
 export default Header1;

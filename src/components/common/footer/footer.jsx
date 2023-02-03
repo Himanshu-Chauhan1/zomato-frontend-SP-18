@@ -80,7 +80,7 @@ const Footer = () => (
                     <section className="about-zomato">
                         <h6 className="footer-heading">ABOUT ZOMATO</h6>
                         <Link to="/" className="footer-content">Who We Are</Link>
-                        <Link to="/" className="footer-content">Work With Us</Link>
+                        <Link to="/navbar" className="footer-content">Work With Us</Link>
                         <Link to="/contactus" className="footer-content">Contact Us</Link>
                     </section>
                     <section className="zomaverse">

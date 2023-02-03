@@ -1,3 +1,4 @@
+import '../modal/index.css'
 
 const Modal = ({ children, id, heading }) => {
     return (

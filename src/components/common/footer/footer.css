@@ -595,7 +595,7 @@ body {
 
     .container-footer {
         width: 98%;
-        height: 38vh;
+        height: 45vh;
         overflow: hidden;
         margin-top: 4%;
         margin: auto;
@@ -683,13 +683,11 @@ body {
         flex-direction: column;
         width: 20%;
         height: 20vh;
-        margin-left: -15px;
     }
 
     .places {
         width: 20%;
         height: 20vh;
-        margin-left: -5px;
     }
 
     .restaurants {
