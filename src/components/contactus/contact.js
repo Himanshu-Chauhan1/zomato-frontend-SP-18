@@ -4,6 +4,7 @@ import Footer from '../common/footer/footer'
 import Body from './body/body'
 import SignUpModal from './header/signup/signupModal'
 import LoginModal from './header/login/loginModal'
+import Midsection from './middlesection/midsection'
 
 
 export default function Contact() {
@@ -12,6 +13,7 @@ export default function Contact() {
             <Header />
             <SignUpModal />
             <LoginModal />
+            <Midsection />
             <Body />
             <Footer />
         </div>

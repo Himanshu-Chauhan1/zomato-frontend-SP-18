@@ -4,29 +4,31 @@ body {
     text-decoration: none;
 }
 
-.main-container-2{
+.footer {
+    background-color: #f8f8f8;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1320px !important; 
+}
+
+.main-container-2 {
     display: none;
 }
 
 .main-container-1 {
     background-color: #f8f8f8;
-    width: 100%;
-    margin-top: 4%;
 }
 
 .container-footer {
-    width: 85%;
-    height: 38vh;
     overflow: hidden;
-    margin-top: 4%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .headings {
     display: flex;
     align-items: center;
-    width: 100%;
-    height: 12vh;
     padding-top: 4%;
 }
 
@@ -45,7 +47,6 @@ body {
 
 .select-country {
     width: 10%;
-    height: 5vh;
     margin-left: 49%;
 }
 
@@ -55,15 +56,12 @@ body {
 
 .select-language {
     width: 10%;
-    height: 5vh;
     margin-left: 1%;
 }
 
 .information {
     display: flex;
     justify-content: space-evenly;
-    width: 89%;
-    height: 60vh;
     margin: auto;
     margin-top: 2%;
 }
@@ -71,7 +69,6 @@ body {
 .footer-heading {
     font-size: 14px;
     margin-top: 3%;
-    width: 100%;
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.16em;
@@ -95,7 +92,6 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     width: 20%;
-    height: 20vh;
 }
 
 .zomaverse {
@@ -103,13 +99,10 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     width: 20%;
-    height: 20vh;
 }
 
 .places {
     width: 20%;
-    height: 20vh;
-    margin-right: 40px;
 }
 
 .restaurants {
@@ -130,13 +123,10 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     width: 20%;
-    height: 20vh;
 }
 
 .social-links {
     width: 25%;
-    height: 20vh;
-    margin-right: -50px;
 }
 
 .links {
@@ -155,7 +145,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 0%;
-    height: 10vh;
     align-items: center;
     margin-left: -3.5%;
 }
@@ -163,7 +152,6 @@ body {
 .android-image {
     object-fit: fill;
     width: 9rem;
-    height: 2.5rem;
     margin-top: 1%;
     overflow: hidden;
     position: absolute;
@@ -173,995 +161,17 @@ body {
 .ios-image {
     object-fit: fill;
     width: 9rem;
-    height: 2.5rem;
     margin-top: 4.5%;
     overflow: hidden;
     position: absolute;
 }
 
 .footer-bottom {
-    width: 80%;
     margin: auto;
     color: #4f4f4f;
     font-size: 14.5px;
     font-weight: 300;
-    height: 15vh;
     font-family: Okra, Helvetica, sans-serif;
     font-style: normal;
-}
-
-
-@media (max-width: 576px) {
-
-    .main-container-1 {
-        display: none;
-    }
-
-    .main-container-2 {
-        width: 100%;
-        background-color: #f8f8f8;
-        display: block;
-    }
-
-    .main-container-3 {
-        width: 95%;
-        margin: auto;
-        display: block;
-        overflow: hidden;
-        background-color: #f8f8f8;
-        margin-top: 25px;
-    }
-
-    .mobile-container-footer {
-        width: 100%;
-        height: 16vh;
-        padding-top: 4%;
-    }
-
-    .mobile-zomato-name {
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-
-    .mobile-input {
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        width: 80%;
-        height: 10vh;
-        margin-left: 10px;
-        margin-top: 30px;
-    }
-
-    .mobile-zomato-name img {
-        width: 135px;
-        height: 28px;
-        object-fit: contain;
-    }
-
-    .mobile-select-country {
-        width: 40%;
-        height: 5vh;
-    }
-
-    .mobile-select-language {
-        width: 40%;
-        height: 5vh;
-        margin-left: 10px;
-    }
-
-    .mobile-information {
-        display: flex;
-        width: 100%;
-        margin: auto;
-    }
-
-    .mobile-about-zomato {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        margin: auto;
-        height: 120px;
-        padding-left: 10px;
-        margin-top: 65px;
-    }
-
-    .mobile-zomaverse {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        margin: auto;
-        height: 120px;
-        padding-left: 30px;
-        margin-top: 65px;
-    }
-
-    .mobile-footer-heading {
-        font-size: 14px;
-        margin-top: 3%;
-        width: 100%;
-        font-weight: 500;
-        font-style: normal;
-        letter-spacing: 0.15em;
-    }
-
-    .mobile-footer-content {
-        text-decoration: none;
-        color: #4f4f4f;
-        font-size: 14px;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: 0.09em;
-    }
-
-    .mobile-places {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        width: 50%;
-        height: 150px;
-        padding-left: 10px;
-    }
-
-    .mobile-restaurants {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .mobile-enterprises {
-        padding-top: 25px;
-    }
-
-    .mobile-learn-more {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        width: 50%;
-        height: 150px;
-        padding-left: 30px;
-    }
-
-    .mobile-social-links {
-        width: 100%;
-        text-align: center;
-        margin-top: 30px;
-    }
-
-    .mobile-links {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 45%;
-        height: 8vh;
-        margin: auto;
-
-    }
-
-    .mobile-download-link-2 {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        height: 50px;
-        margin: auto;
-        margin-top: 25px;
-    }
-
-    .mobile-android-image {
-        object-fit: fill;
-        width: 9rem;
-        margin-left: -90px;
-        overflow: hidden;
-        position: absolute;
-    }
-
-
-    .mobile-ios-image {
-        object-fit: fill;
-        width: 9rem;
-        overflow: hidden;
-        margin-left: -40px;
-        position: absolute;
-    }
-
-    .mobile-footer-bottom {
-        width: 96%;
-        margin: auto;
-        color: #4f4f4f;
-        font-size: 14px;
-        font-weight: 300;
-        height: 25vh;
-        font-style: normal;
-        margin-top: 60px;
-    }
-
-}
-
-@media (min-width: 576px) and (max-width:768px) {
-
-    body {
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-    }
-
-    .main-container-1 {
-        background-color: #f8f8f8;
-        display: block;
-        width: 100%;
-        margin-top: 4%;
-    }
-
-    .main-container-2 {
-        display: none;
-    }
-
-    .container-footer {
-        width: 98%;
-        height: 38vh;
-        overflow: hidden;
-        margin-top: 4%;
-        margin: auto;
-    }
-
-    .headings {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height: 12vh;
-        padding-top: 4%;
-    }
-
-    .zomato-name {
-        width: 20%;
-        margin-left: 4.3%;
-        font-weight: bold;
-    }
-
-    .zomato-name img {
-        width: 52%;
-        margin-left: 5%;
-        font-weight: bold;
-        object-fit: cover;
-    }
-
-    .select-country {
-        width: 15%;
-        height: 5vh;
-        margin-left: 41%;
-    }
-
-    .select-country-name {
-        width: 100%;
-    }
-
-    .select-language {
-        width: 10%;
-        height: 5vh;
-        margin-left: 1%;
-    }
-
-    .information {
-        display: flex;
-        justify-content: space-evenly;
-        width: 89%;
-        height: 60vh;
-        margin: auto;
-        margin-top: 2%;
-    }
-
-    .footer-heading {
-        font-size: 14px;
-        margin-top: 3%;
-        width: 100%;
-        font-weight: 500;
-        font-style: normal;
-        letter-spacing: 0.16em;
-    }
-
-    .footer-content {
-        text-decoration: none;
-        color: #4f4f4f;
-        font-size: 14px;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: 0.07em;
-    }
-
-    .footer-content:hover {
-        color: rgb(124, 123, 123);
-    }
-
-    .about-zomato {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-    }
-
-    .zomaverse {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-        margin-left: -15px;
-    }
-
-    .places {
-        width: 20%;
-        height: 20vh;
-        margin-left: -5px;
-    }
-
-    .restaurants {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-    }
-
-    .enterprises {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        margin-top: 4%;
-    }
-
-    .learn-more {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-        margin-left: 10px;
-    }
-
-    .social-links {
-        margin-right: -20px;
-        width: 20%;
-        height: 20vh;
-    }
-
-    .links {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        margin-left: -6px;
-        margin-top: 5px;
-    }
-
-    .footer-link {
-        text-decoration: none;
-        color: black;
-    }
-
-    .download-link-2 {
-        display: flex;
-        flex-direction: column;
-        height: 10vh;
-        align-items: center;
-        margin-left: -10px;
-        margin-top: 10px;
-    }
-
-    .android-image {
-        object-fit: fill;
-        width: 9rem;
-        height: 2.5rem;
-        margin-top: 1%;
-        overflow: hidden;
-        position: absolute;
-    }
-
-
-    .ios-image {
-        object-fit: fill;
-        width: 9rem;
-        height: 2.5rem;
-        margin-top: 70px;
-        overflow: hidden;
-        position: absolute;
-    }
-
-    .footer-bottom {
-        width: 90%;
-        margin: auto;
-        color: #4f4f4f;
-        font-size: 14.5px;
-        font-weight: 300;
-        height: 15vh;
-        font-family: Okra, Helvetica, sans-serif;
-        font-style: normal;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    body {
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-    }
-
-    .main-container-1 {
-        background-color: #f8f8f8;
-        width: 100%;
-        margin-top: 4%;
-    }
-
-    .mobile-main-container-2 {
-        display: none;
-    }
-
-    .container-footer {
-        width: 98%;
-        height: 45vh;
-        overflow: hidden;
-        margin-top: 4%;
-        margin: auto;
-    }
-
-    .headings {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height: 12vh;
-        padding-top: 4%;
-    }
-
-    .zomato-name {
-        width: 20%;
-        margin-left: 4.3%;
-        font-weight: bold;
-    }
-
-    .zomato-name img {
-        width: 52%;
-        margin-left: 5%;
-        font-weight: bold;
-        object-fit: cover;
-    }
-
-    .select-country {
-        width: 10%;
-        height: 5vh;
-        margin-left: 48%;
-    }
-
-    .select-country-name {
-        width: 100%;
-    }
-
-    .select-language {
-        width: 10%;
-        height: 5vh;
-        margin-left: 1%;
-    }
-
-    .information {
-        display: flex;
-        justify-content: space-evenly;
-        width: 89%;
-        height: 60vh;
-        margin: auto;
-        margin-top: 2%;
-    }
-
-    .footer-heading {
-        font-size: 14px;
-        margin-top: 3%;
-        width: 100%;
-        font-weight: 500;
-        font-style: normal;
-        letter-spacing: 0.16em;
-    }
-
-    .footer-content {
-        text-decoration: none;
-        color: #4f4f4f;
-        font-size: 14px;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: 0.07em;
-    }
-
-    .footer-content:hover {
-        color: rgb(124, 123, 123);
-    }
-
-    .about-zomato {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-    }
-
-    .zomaverse {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-    }
-
-    .places {
-        width: 20%;
-        height: 20vh;
-    }
-
-    .restaurants {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-    }
-
-    .enterprises {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        margin-top: 4%;
-    }
-
-    .learn-more {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-        margin-left: 10px;
-    }
-
-    .social-links {
-        margin-right: -20px;
-        width: 20%;
-        height: 20vh;
-    }
-
-    .links {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        margin-left: -6px;
-        margin-top: 5px;
-    }
-
-    .footer-link {
-        text-decoration: none;
-        color: black;
-    }
-
-    .download-link-2 {
-        display: flex;
-        flex-direction: column;
-        height: 10vh;
-        align-items: center;
-        margin-left: -10px;
-        margin-top: 10px;
-    }
-
-    .android-image {
-        object-fit: fill;
-        width: 9rem;
-        height: 2.5rem;
-        margin-top: 1%;
-        overflow: hidden;
-        position: absolute;
-    }
-
-
-    .ios-image {
-        object-fit: fill;
-        width: 9rem;
-        height: 2.5rem;
-        margin-top: 70px;
-        overflow: hidden;
-        position: absolute;
-    }
-
-    .footer-bottom {
-        width: 90%;
-        margin: auto;
-        color: #4f4f4f;
-        font-size: 14.5px;
-        font-weight: 300;
-        height: 15vh;
-        font-family: Okra, Helvetica, sans-serif;
-        font-style: normal;
-    }
-
-
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-    body {
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-    }
-
-    .main-container-1 {
-        background-color: #f8f8f8;
-        width: 100%;
-        margin-top: 4%;
-    }
-
-    .mobile-main-container-2 {
-        display: none;
-    }
-
-    .container-footer {
-        width: 100%;
-        height: 33vh;
-        overflow: hidden;
-        margin-top: 4%;
-        margin: auto;
-    }
-
-    .headings {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height: 12vh;
-        padding-top: 4%;
-    }
-
-    .zomato-name {
-        width: 20%;
-        margin-left: 4.3%;
-        font-weight: bold;
-    }
-
-    .zomato-name img {
-        width: 52%;
-        margin-left: 5%;
-        font-weight: bold;
-        object-fit: cover;
-    }
-
-    .select-country {
-        width: 12%;
-        height: 5vh;
-        margin-left: 45%;
-    }
-
-    .select-country-name {
-        width: 100%;
-    }
-
-    .select-language {
-        width: 10%;
-        height: 5vh;
-        margin-left: 1%;
-    }
-
-    .information {
-        display: flex;
-        justify-content: space-evenly;
-        width: 89%;
-        height: 60vh;
-        margin: auto;
-        margin-top: 2%;
-    }
-
-    .footer-heading {
-        font-size: 14px;
-        margin-top: 3%;
-        width: 100%;
-        font-weight: 500;
-        font-style: normal;
-        letter-spacing: 0.16em;
-    }
-
-    .footer-content {
-        text-decoration: none;
-        color: #4f4f4f;
-        font-size: 14px;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: 0.07em;
-    }
-
-    .footer-content:hover {
-        color: rgb(124, 123, 123);
-    }
-
-    .about-zomato {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-    }
-
-    .zomaverse {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-    }
-
-    .places {
-        width: 20%;
-        height: 20vh;
-    }
-
-    .restaurants {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-    }
-
-    .enterprises {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        margin-top: 4%;
-    }
-
-    .learn-more {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-        margin-left: 22px;
-    }
-
-    .social-links {
-        width: 20%;
-        height: 20vh;
-        margin-right: -40px;
-    }
-
-    .links {
-        display: flex;
-        justify-content: space-evenly;
-        width: 80%;
-        margin-left: -10px;
-        margin-top: 5px;
-    }
-
-    .footer-link {
-        text-decoration: none;
-        color: black;
-    }
-
-    .download-link-2 {
-        display: flex;
-        flex-direction: column;
-        height: 10vh;
-        align-items: center;
-        margin-left: -10px;
-        margin-top: 10px;
-    }
-
-    .android-image {
-        object-fit: fill;
-        width: 9rem;
-        height: 2.5rem;
-        margin-top: 1%;
-        overflow: hidden;
-        position: absolute;
-    }
-
-
-    .ios-image {
-        object-fit: fill;
-        width: 9rem;
-        height: 2.5rem;
-        margin-top: 70px;
-        overflow: hidden;
-        position: absolute;
-    }
-
-    .footer-bottom {
-        width: 90%;
-        margin: auto;
-        color: #4f4f4f;
-        font-size: 14.5px;
-        font-weight: 300;
-        height: 15vh;
-        font-family: Okra, Helvetica, sans-serif;
-        font-style: normal;
-    }
-
-
-}
-
-@media (min-width: 1200px) and (max-width: 1400px) {
-    
-    body {
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-    }
-
-    .main-container-1 {
-        background-color: #f8f8f8;
-        width: 100%;
-        margin-top: 4%;
-    }
-
-    .mobile-main-container-2 {
-        display: none;
-    }
-
-    .container-footer {
-        width: 98%;
-        height: 30vh;
-        overflow: hidden;
-        margin-top: 4%;
-        margin: auto;
-    }
-
-    .headings {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height: 12vh;
-        padding-top: 4%;
-    }
-
-    .zomato-name {
-        width: 20%;
-        margin-left: 4.3%;
-        font-weight: bold;
-    }
-
-    .zomato-name img {
-        width: 52%;
-        margin-left: 5%;
-        font-weight: bold;
-        object-fit: cover;
-    }
-
-    .select-country {
-        width: 10%;
-        height: 5vh;
-        margin-left: 48%;
-    }
-
-    .select-country-name {
-        width: 100%;
-    }
-
-    .select-language {
-        width: 10%;
-        height: 5vh;
-        margin-left: 1%;
-    }
-
-    .information {
-        display: flex;
-        justify-content: space-evenly;
-        width: 89%;
-        height: 60vh;
-        margin: auto;
-        margin-top: 2%;
-    }
-
-    .footer-heading {
-        font-size: 14px;
-        margin-top: 3%;
-        width: 100%;
-        font-weight: 500;
-        font-style: normal;
-        letter-spacing: 0.16em;
-    }
-
-    .footer-content {
-        text-decoration: none;
-        color: #4f4f4f;
-        font-size: 14px;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: 0.07em;
-    }
-
-    .footer-content:hover {
-        color: rgb(124, 123, 123);
-    }
-
-    .about-zomato {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-    }
-
-    .zomaverse {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-    }
-
-    .places {
-        width: 20%;
-        height: 20vh;
-    }
-
-    .restaurants {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-    }
-
-    .enterprises {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        margin-top: 4%;
-    }
-
-    .learn-more {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        height: 20vh;
-    }
-
-    .social-links {
-        width: 20%;
-        height: 20vh;
-    }
-
-    .links {
-        display: flex;
-        justify-content: space-evenly;
-        width: 70%;
-        margin-left: -15px;
-        margin-top: 5px;
-    }
-
-    .footer-link {
-        text-decoration: none;
-        color: black;
-    }
-
-    .download-link-2 {
-        display: flex;
-        flex-direction: column;
-        height: 10vh;
-        align-items: center;
-        margin-left: -10px;
-        margin-top: 10px;
-    }
-
-    .android-image {
-        object-fit: fill;
-        width: 9rem;
-        height: 2.5rem;
-        margin-top: 1%;
-        overflow: hidden;
-        position: absolute;
-    }
-
-
-    .ios-image {
-        object-fit: fill;
-        width: 9rem;
-        height: 2.5rem;
-        margin-top: 70px;
-        overflow: hidden;
-        position: absolute;
-    }
-
-    .footer-bottom {
-        width: 90%;
-        margin: auto;
-        color: #4f4f4f;
-        font-size: 14.5px;
-        font-weight: 300;
-        height: 10vh;
-        font-family: Okra, Helvetica, sans-serif;
-        font-style: normal;
-    }
-
-
+    margin-top: 100px;
 }

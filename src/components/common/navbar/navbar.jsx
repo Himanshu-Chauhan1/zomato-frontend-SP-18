@@ -1,18 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../navbar/navbar.css'
-import myFunction1 from '..navbar/navbar.js'
 
 export default function Navbar() {
     return (
         <>
             <div class="topnav" id="myTopnav">
-                <a href="#home" class="active">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-                <a href="/" class="icon" onclick={myFunction1}>
+                <Link href="#home" class="active">Home</Link>
+                <Link href="#news">News</Link>
+                <Link href="#contact">Contact</Link>
+                <Link href="#about">About</Link>
+                <Link to="javascript void(0)" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
-                </a>
+                </Link>
             </div>
 
             <div style={{paddingleft:"16px"}}>

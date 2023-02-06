@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiLocationMarker } from "react-icons/hi";
 import { MdOutlineAppSettingsAlt } from "react-icons/md";
-// import { BsSearch } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
@@ -17,9 +17,7 @@ const Header = () => {
     }
 
     return (
-        <div className="container-fluid custom_container">
-            {/* <!-- HEADER --> */}
-            <header>
+            <header className='homepage-header'>
                 <nav className="navbar">
                     <div className="container">
                         <div className='app-heading'>
@@ -71,8 +69,8 @@ const Header = () => {
                             </div>
                             <div className="search-item-2">
                                 <i className="fas fa-search"></i>
-                                {/* <BsSearch size={30} className="location-marker" /> */}
-                                <input type="text" placeholder="Search for restaurant, cuisine or a dish..........................." className='search-para-2' />
+                                <BsSearch size={30} className="location-marker" />
+                                <input type="text" placeholder="Search for restaurant, cuisine or a dish" className='search-para-2' />
                             </div>
                         </div>
                     </div>
@@ -81,7 +79,6 @@ const Header = () => {
                     <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="" />
                 </div>
             </header>
-        </div>
     );
 }
 export default Header;
