@@ -1,5 +1,6 @@
 import React from 'react';
 import '../card/card.css'
+import '../card/responsive.css'
 import { Card } from 'antd';
 import { Link } from 'react-router-dom';
 

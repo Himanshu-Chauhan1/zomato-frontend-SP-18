@@ -15,7 +15,7 @@ const handleChange = (value) => {
 const Footer = () => (
     <>
         <footer className="footer">
-            <div className="container">
+            <div className="custom-container">
                 <div className="main-container-1">
                     <div className="container-footer">
                         <div className="headings">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiLocationMarker } from "react-icons/hi";
 // import { MdOutlineAppSettingsAlt } from "react-icons/md";
-// import { BsSearch } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
@@ -21,19 +21,17 @@ const Header1 = () => {
         <>
             <header className='main-header'>
                 <div className="custom-container">
+                    <div className="main-navbar">
                     <div className="contact-menu-icon" onClick={handleShowNavbar}>
                         <FaBars color="black" size={20} className='contact-menu-icon-bs' />
                     </div>
-                    <div className="main-navbar">
                         <ul className='contact-app-heading'>
                             <NavLink>
                                 <img className='contact-navlink-image-1' src={"https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"} alt="hello" />
                             </NavLink>
                         </ul>
                         <ul className="contact-search">
-                            <img className="logo1" src="https://icons8.com/icon/13800/location" alt="" />
                             <div className="contact-search-item-1">
-                                <i className="fas fa-map-marker-alt"></i>
                                 <HiLocationMarker size={25} color="rgb(255, 126, 139)" />
                                 <p className="contact-search-para">
                                     <select name="membership" id="membership" className='contact-search-option'>
@@ -41,8 +39,7 @@ const Header1 = () => {
                                     </select></p>
                             </div>
                             <div className="contact-search-item-2">
-                                <i className="fas fa-search"></i>
-                                {/* <BsSearch size={30} className="location-marker" /> */}
+                                <BsSearch size={20} className="location-marker" />
                                 <input type="text" placeholder="Search for restaurant, cuisine or a dish" className='contact-search-para-2' />
                             </div>
                         </ul>

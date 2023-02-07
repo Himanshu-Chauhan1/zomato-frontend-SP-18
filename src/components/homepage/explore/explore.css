@@ -7,6 +7,7 @@ body {
 .main-container {
     width: 76%;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .collapse-heading {

@@ -24,6 +24,7 @@
         width: 50%;
         border: 1px solid #e8e8e8;
         border-radius: 10px;
+        padding-left: 0;
         background: white;
         box-shadow: 0px 4px 10px 0px rgb(232, 232, 232);
         background-color: #FFFFFF;
@@ -168,6 +169,7 @@
         width: 55%;
         border: 1px solid #e8e8e8;
         border-radius: 10px;
+        padding-left: 0;
         background: white;
         box-shadow: 0px 4px 10px 0px rgb(232, 232, 232);
         background-color: #FFFFFF;
@@ -312,6 +314,7 @@
         width: 60%;
         border: 1px solid #e8e8e8;
         border-radius: 10px;
+        padding-left: 0;
         background: white;
         box-shadow: 0px 4px 10px 0px rgb(232, 232, 232);
         background-color: #FFFFFF;
@@ -354,6 +357,7 @@
         display: flex;
         justify-content: center;
         width: 100%;
+        padding-right: 10px;
     }
 
     .contact-search .contact-search-item-2 input {
@@ -364,6 +368,9 @@
         padding-left: 12px;
         font-size: 15px;
         font-weight: 400;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .contact-search .contact-search-item-2:first-child {
@@ -436,24 +443,32 @@
         background-color: white;
     }
 
+    .main-navbar {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .contact-navlink-image-1 {
-        display: none;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        margin-bottom: 0;
     }
 
     .contact-navlink-image-2 {
-        width: 140px;
+        width: 20%;
         object-fit: contain;
-        margin-left: 160px;
         display: block;
     }
 
     .contact-menu-icon {
         display: block;
         cursor: pointer;
-        position: relative;
         padding-left: 2%;
         width: 20%;
-        height: 5vh;
     }
 
     .menu-icon-bs {
@@ -480,6 +495,7 @@
         transition: transform 0.16s ease-in-out 0s;
         display: flex;
         flex-direction: column;
+        padding-left: 2%;
     }
 
     .contact-nav-elements a {
@@ -502,7 +518,7 @@
 
     .Active {
         width: 100%;
-        background-color: aqua;
+        background-color: white;
         height: 100vh;
     }
 
@@ -520,29 +536,36 @@
 }
 
 @media (max-width: 576px) {
-
     #membership {
         background-color: white;
     }
 
+    .main-navbar {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .contact-navlink-image-1 {
-        display: none;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        margin-bottom: 0;
     }
 
     .contact-navlink-image-2 {
-        width: 140px;
+        width: 20%;
         object-fit: contain;
-        margin-left: 160px;
         display: block;
     }
 
     .contact-menu-icon {
         display: block;
         cursor: pointer;
-        position: relative;
-        padding-left: 1%;
+        padding-left: 2%;
         width: 20%;
-        height: 5vh;
     }
 
     .menu-icon-bs {
@@ -552,14 +575,6 @@
 
     .contact-navbar {
         width: 100%;
-    }
-
-    .contact-container {
-        width: 100% !important;
-        display: block;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
     }
 
     .contact-menu-icon-1 {
@@ -575,42 +590,44 @@
         overflow-x: hidden !important;
         transform: rotate(0deg);
         transition: transform 0.16s ease-in-out 0s;
-    }
-
-    .contact-nav-elements ul {
         display: flex;
         flex-direction: column;
-        color: black;
+        padding-left: 2%;
     }
 
-    .contact-nav-elements ul a {
+    .contact-nav-elements a {
         text-decoration: none;
-        height: 100vh;
         font-size: 19px;
         font-weight: 300;
         font-style: normal;
         letter-spacing: 0.04em;
     }
 
-    .contact-nav-elements ul a.Active {
+    .contact-nav-elements a.Active {
         color: #4f4f4f;
         font-weight: 350;
         font-size: 18px;
     }
 
-    .contact-nav-elements ul li {
-        margin-top: 22px;
+    .contact-nav-elements li {
         color: white;
     }
 
     .Active {
         width: 100%;
-        background-color: aqua;
+        background-color: white;
         height: 100vh;
+    }
+
+    .contact-li-1 {
+        display: block;
+    }
+
+    .contact-li-2 {
+        display: block;
     }
 
     .contact-search {
         display: none;
     }
-
 }

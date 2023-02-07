@@ -4,11 +4,6 @@
         background-color: #f8f8f8;
     }
 
-    .container {
-        margin: 0 auto;
-        max-width: 1320px !important;
-    }
-
     .main-container-1 {
         display: block;
         width: 100%;
@@ -188,11 +183,6 @@
 
     .footer {
         background-color: #f8f8f8;
-    }
-
-    .container {
-        margin: 0 auto;
-        max-width: 1140px !important;
     }
 
     .main-container-1 {
@@ -375,11 +365,6 @@
 
     .footer {
         background-color: #f8f8f8;
-    }
-
-    .container {
-        margin: 0 auto;
-        max-width: 960px !important;
     }
 
     .main-container-1 {

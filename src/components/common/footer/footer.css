@@ -8,11 +8,6 @@ body {
     background-color: #f8f8f8;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 1320px !important; 
-}
-
 .main-container-2 {
     display: none;
 }
