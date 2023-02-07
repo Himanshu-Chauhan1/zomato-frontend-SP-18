@@ -19,7 +19,7 @@ const Header = () => {
     return (
             <header className='homepage-header'>
                 <nav className="navbar">
-                    <div className="container">
+                    <div className="custom-container">
                         <div className='app-heading'>
                             <NavLink to="/" className="app-heading-a"><li><MdOutlineAppSettingsAlt /> Get the App</li></NavLink>
                         </div>

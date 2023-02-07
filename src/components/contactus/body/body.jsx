@@ -6,7 +6,7 @@ import CardComponent from '../card/card'
 
 export default function Body() {
     return (
-        <div className="container">
+        <div className="custom-container">
             <div className="main-part">
                 <div className="contact-left-part">
                     <ContactForm />

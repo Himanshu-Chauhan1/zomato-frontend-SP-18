@@ -17,3 +17,49 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.custom-container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) and (max-width:1400px) {
+  .custom-container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+  .custom-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .custom-container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+  .custom-container {
+    max-width:540px;
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+  .custom-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+}

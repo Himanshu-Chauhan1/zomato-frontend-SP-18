@@ -3,7 +3,6 @@ import '../middlesection/midsection.css'
 
 export default function Midsection() {
     return (
-        <div>
             <>
             <div className="container-1">
                 <div className="custom">
@@ -13,6 +12,5 @@ export default function Midsection() {
                 </div>
             </div>
             </>
-        </div>
     )
 }

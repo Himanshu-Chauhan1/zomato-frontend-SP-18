@@ -6,14 +6,6 @@
     text-decoration: none;
 }
 
-.container-fluid {
-    width: 100%;
-}
-
-.custom_container {
-    padding: 0px 0px !important;
-}
-
 .homepage-header {
     width: 100%;
     overflow: hidden;
